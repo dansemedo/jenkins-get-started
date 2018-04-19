@@ -13,3 +13,6 @@ sudo docker exec -it <mycontainer> bash
 https://medium.com/@prtdomingo/editing-files-in-your-linux-virtual-machine-made-a-lot-easier-with-remote-vscode-6bb98d0639a4
 ##### Access to the Linux VM with RMATE 
 ssh -R 52698:localhost:52698 <user@vmnameDNS>
+
+#### Connect inside of container
+$ docker exec -it <containername> bash
